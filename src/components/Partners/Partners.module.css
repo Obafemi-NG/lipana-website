@@ -1,0 +1,20 @@
+.componentContainer {
+  background-color: #08162a;
+  padding: 54px 100px;
+}
+.title {
+  font-family: "Syne";
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.iconsContainer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,73 @@
+.componentContainer {
+  background-color: #010f24;
+}
+.content {
+  max-width: 1200px;
+  padding: 100px 100px 0px 100px;
+}
+.title {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 74px;
+  text-align: center;
+  color: #ffffff;
+}
+.developers {
+  background-image: linear-gradient(180deg, #00d1ff, #0567fb);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin: auto;
+  line-height: 31px;
+  text-align: center;
+  margin-top: 24px;
+  width: 50%;
+  color: #ffffff;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: #0567fb;
+  border-radius: 46px;
+  padding: 16px 60px;
+  margin: auto;
+  margin-top: 48px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+}
+.arrowRight {
+  margin-left: 14px;
+}
+.heroPngContainer {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 192px;
+}
+.invoiceContainer {
+  display: flex;
+  align-items: center;
+}
+.invoicesPng {
+  width: 1000px;
+  margin: 0 auto;
+}
+.dashboardPng {
+  width: 550px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
