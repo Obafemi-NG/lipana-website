@@ -73,3 +73,9 @@
     line-height: auto;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cardContainer {
+    min-width: 82%;
+  }
+}

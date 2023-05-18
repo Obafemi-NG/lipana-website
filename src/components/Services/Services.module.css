@@ -38,3 +38,8 @@
     margin-top: 24px;
   }
 }
+@media screen and (max-width: 320px) {
+  .componentContainer {
+    padding: 28px 8px;
+  }
+}
