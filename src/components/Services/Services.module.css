@@ -1,0 +1,40 @@
+.componentContainer {
+  max-width: 1200px;
+  padding: 64px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.servicesText {
+  margin: 0 26px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: auto;
+  color: #0a0a0a;
+}
+.carouselContainer {
+  margin-top: 54px;
+}
+
+@media screen and (max-width: 480px) {
+  .componentContainer {
+    padding: 28px 16px;
+  }
+  .servicesText {
+    font-size: 24px;
+    margin: 0 16px;
+  }
+  .star {
+    height: 24px;
+  }
+  .carouselContainer {
+    margin-top: 24px;
+  }
+}

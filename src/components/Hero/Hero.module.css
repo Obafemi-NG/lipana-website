@@ -71,3 +71,31 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 36px 16px 0 16px;
+  }
+  .title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .subTitle {
+    font-size: 16px;
+    line-height: 21px;
+    width: 90%;
+    margin-top: 16px;
+  }
+  .btn {
+    padding: 10px 36px;
+  }
+  .heroPngContainer {
+    margin-top: 120px;
+  }
+  .invoicesPng {
+    width: 90%;
+  }
+  .dashboardPng {
+    width: 70%;
+  }
+}

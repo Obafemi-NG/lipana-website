@@ -1,0 +1,75 @@
+.cardContainer {
+  padding: 24px 18px 48px 18px;
+  min-width: 270px;
+  position: relative;
+}
+.darkCardContainer {
+  background-color: #08162a;
+}
+.darkCardContainer .title {
+  color: #2f80fc;
+}
+.darkCardContainer .description {
+  color: #fff;
+}
+.darkCardContainer .learnMore {
+  color: #2f80fc;
+}
+.lightCardContainer {
+  background-color: #f8f8f8;
+}
+.lightCardContainer .title {
+  color: #08162a;
+}
+.lightCardContainer .learnMore {
+  color: #08162a;
+}
+.title {
+  font-family: "DM Sans";
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 16.0664px;
+  line-height: 24px;
+}
+
+.description {
+  font-family: "DM Sans";
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 15.1213px;
+  line-height: 24px;
+  color: #8e8e8e;
+}
+
+.learnMoreContainer {
+  position: absolute;
+  bottom: 28px;
+  display: flex;
+  align-items: center;
+}
+.learnMore {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16.0664px;
+  line-height: 24px;
+}
+.arrow {
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .cardContainer {
+    padding: 18px 16px 48px 16px;
+  }
+  .description {
+    font-size: 14px;
+    line-height: auto;
+  }
+  .learnMoreContainer {
+    bottom: 14px;
+  }
+  .learnMore {
+    font-size: 14px;
+    line-height: auto;
+  }
+}

@@ -14,7 +14,35 @@
 .iconsContainer {
   margin-top: 24px;
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 36px;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+  .componentContainer {
+    padding: 22px 16px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .iconsContainer {
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .iandm,
+  .visa,
+  .masterCard,
+  .unionPay,
+  .mPesa {
+    width: 64px;
+  }
+  .bitcoin {
+    width: 48px;
+  }
+  .ethereum {
+    height: 48px;
+  }
 }

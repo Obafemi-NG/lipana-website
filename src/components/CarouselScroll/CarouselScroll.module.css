@@ -1,0 +1,49 @@
+.carouselContainer {
+  padding: 14px;
+}
+.carouselContainerInner {
+  overflow-x: scroll;
+  display: flex;
+  gap: 24px;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.carouselContainerInner::-webkit-scrollbar {
+  display: none;
+}
+.carouselContainerInner > * {
+  scroll-snap-align: center;
+}
+.control-container {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+.scroll-right {
+  margin-left: 20px;
+}
+.opaque {
+  opacity: 0.2;
+}
+.non-opaque:hover {
+  cursor: pointer;
+}
+.solidArrow {
+  width: 16px;
+}
+
+@media only screen and (max-width: 820px) and (min-width: 481px) {
+  .carouselContainer {
+    margin-left: 50px;
+  }
+  .control-container {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carouselContainerInner {
+    gap: 16px;
+  }
+}
