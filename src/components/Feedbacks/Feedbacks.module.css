@@ -1,0 +1,26 @@
+.componentContainer {
+  padding: 64px 100px 32px 64px;
+  background-color: #fff;
+}
+.content {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.servicesText {
+  margin: 0 26px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: auto;
+  color: #0a0a0a;
+}

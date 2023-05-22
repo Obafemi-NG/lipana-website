@@ -1,0 +1,174 @@
+.componentContainer {
+  position: relative;
+  background-color: #010f24;
+  height: fit-content;
+  z-index: 0;
+}
+
+.componentContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.02;
+  background: url("../../assets/footerPattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #010f24;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.99;
+}
+
+.content {
+  padding: 72px 100px 60px 100px;
+  z-index: 10;
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutSection {
+  width: 25%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.lipana {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.7778px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  margin-left: 8px;
+  color: #ffffff;
+}
+.contact {
+  margin-top: 78px;
+}
+.contactTitle {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #f5f9fc;
+  margin-bottom: 18px;
+}
+.aboutText {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 12px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.73);
+}
+.iconDetailPair {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-bottom: 24px;
+}
+.mailIcon,
+.callIcon {
+  width: 20px;
+}
+.locationIcon {
+  height: 20px;
+}
+.locationDetail {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.productsTitle,
+.companyTitle,
+.resourcesTitle,
+.projectTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: #f5f9fc;
+}
+.productLinksContainer,
+.companyLinksContainer,
+.resourcesLinksContainer,
+.projectLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.productLink,
+.companyLink,
+.resourcesLink,
+.projectLink {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.copyright {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #e1e9f0;
+}
+.socialsIcons {
+  display: flex;
+  gap: 18px;
+}
+.youtubeIcon {
+  background-color: white;
+  padding: 3px 2px;
+  border-radius: 2px;
+}
+.otherLinks {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.otherLink {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #8298ab;
+}

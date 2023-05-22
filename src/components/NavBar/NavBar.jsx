@@ -3,6 +3,7 @@ import styles from "./NavBar.module.css";
 
 import logo from "../../assets/logo.svg";
 import hamburger from "../../assets/Vectorhamburger.svg";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [displayMenu, setDisplayMenu] = useState(false);
@@ -28,21 +29,61 @@ const NavBar = () => {
               displayMenu ? styles.responsiveNavLinks : ""
             } `}
           >
-            <li className={`${styles.navLink} ${styles.responsiveNavLink} `}>
-              Products
-            </li>
-            <li className={`${styles.navLink} ${styles.responsiveNavLink} `}>
-              Pricing
-            </li>
-            <li className={`${styles.navLink} ${styles.responsiveNavLink} `}>
-              Developer
-            </li>
-            <li className={`${styles.navLink} ${styles.responsiveNavLink} `}>
-              Company
-            </li>
-            <li className={`${styles.navLink} ${styles.responsiveNavLink} `}>
-              Contact Us
-            </li>
+            <NavLink to="/products">
+              {({ isActive }) => (
+                <li
+                  className={` ${isActive ? styles.isActive : ""} ${
+                    styles.navLink
+                  } ${styles.responsiveNavLink} `}
+                >
+                  Products
+                </li>
+              )}
+            </NavLink>
+            <NavLink to="/pricing">
+              {({ isActive }) => (
+                <li
+                  className={` ${isActive ? styles.isActive : ""} ${
+                    styles.navLink
+                  } ${styles.responsiveNavLink} `}
+                >
+                  Pricing
+                </li>
+              )}
+            </NavLink>
+            <NavLink to="/developer">
+              {({ isActive }) => (
+                <li
+                  className={` ${isActive ? styles.isActive : ""} ${
+                    styles.navLink
+                  } ${styles.responsiveNavLink} `}
+                >
+                  Developer
+                </li>
+              )}
+            </NavLink>
+            <NavLink to="/company">
+              {({ isActive }) => (
+                <li
+                  className={` ${isActive ? styles.isActive : ""} ${
+                    styles.navLink
+                  } ${styles.responsiveNavLink} `}
+                >
+                  Company
+                </li>
+              )}
+            </NavLink>
+            <NavLink to="/contact-us">
+              {({ isActive }) => (
+                <li
+                  className={` ${isActive ? styles.isActive : ""} ${
+                    styles.navLink
+                  } ${styles.responsiveNavLink} `}
+                >
+                  Contact Us
+                </li>
+              )}
+            </NavLink>
           </ul>
           <div
             className={`${styles.auth} ${

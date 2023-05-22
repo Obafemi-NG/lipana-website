@@ -8,6 +8,7 @@ import ServicesCard from "../ServicesCard/ServicesCard";
 const Services = () => {
   return (
     <div className={styles.componentContainer}>
+      {/* <div className={styles.content}> */}
       <div className={styles.titleContainer}>
         <img src={star} alt="star" className={styles.star} />
         <p className={styles.servicesText}> Services </p>
@@ -26,6 +27,7 @@ const Services = () => {
           ))}
         </CarouselScroll>
       </div>
+      {/* </div> */}
     </div>
   );
 };

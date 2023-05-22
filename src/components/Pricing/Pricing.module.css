@@ -1,0 +1,47 @@
+.componentContainer {
+  background-color: #f8f8f8;
+  padding: 78px 100px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.percentage {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #08162a;
+}
+
+.perTransaction {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: auto;
+  text-align: center;
+  color: #8e8e8e;
+}
+
+.content .pricing:nth-child(n):not(:last-child) {
+  border-right: #bdbdbd 2px solid;
+  padding-right: 56px;
+}

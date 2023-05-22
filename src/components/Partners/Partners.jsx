@@ -11,15 +11,21 @@ import ethereum from "../../assets/ethereum.svg";
 const Partners = () => {
   return (
     <div className={styles.componentContainer}>
-      <p className={styles.title}>Our Partners</p>
-      <div className={styles.iconsContainer}>
-        <img src={iAndM} alt="i&m" className={styles.iandm} />
-        <img src={visa} alt="visa" className={styles.visa} />
-        <img src={masterCard} alt="masterCard" className={styles.masterCard} />
-        <img src={unionPay} alt="unionPay" className={styles.unionPay} />
-        <img src={mPesa} alt="mPesa" className={styles.mPesa} />
-        <img src={bitcoin} alt="bitcoin" className={styles.bitcoin} />
-        <img src={ethereum} alt="ethereum" className={styles.ethereum} />
+      <div className={styles.content}>
+        <p className={styles.title}>Our Partners</p>
+        <div className={styles.iconsContainer}>
+          <img src={iAndM} alt="i&m" className={styles.iandm} />
+          <img src={visa} alt="visa" className={styles.visa} />
+          <img
+            src={masterCard}
+            alt="masterCard"
+            className={styles.masterCard}
+          />
+          <img src={unionPay} alt="unionPay" className={styles.unionPay} />
+          <img src={mPesa} alt="mPesa" className={styles.mPesa} />
+          <img src={bitcoin} alt="bitcoin" className={styles.bitcoin} />
+          <img src={ethereum} alt="ethereum" className={styles.ethereum} />
+        </div>
       </div>
     </div>
   );

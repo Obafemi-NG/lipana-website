@@ -1,0 +1,109 @@
+.titleContainer {
+  position: relative;
+  background-color: #010f24;
+  height: fit-content;
+  z-index: 0;
+  height: 250px;
+}
+
+.titleContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.02;
+  background: url("../../assets/footerPattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.pageTitle {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 62px;
+  text-align: center;
+  color: #ffffff;
+}
+.contentContainer {
+  margin-bottom: 48px;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.formContainer {
+  background-color: #011532;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 44px;
+  margin-top: -100px;
+  padding-top: 68px;
+  padding-bottom: 36px;
+}
+.formTitle {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #0567fb;
+}
+.formSubTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 129.5%;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.inputFormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  gap: 24px;
+  margin: auto;
+}
+.namePhoneContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+}
+.input {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #979797;
+}
+.nameInput {
+  width: 43%;
+}
+
+.submitBtn {
+  background: #0567fb;
+  border-radius: 28px;
+  padding: 16px 48px;
+  margin: auto;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 24px;
+}

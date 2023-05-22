@@ -1,0 +1,96 @@
+.componentContainer {
+  background-color: #2746e1;
+  padding: 48px 0px 48px 100px;
+  background-image: url(../../assets/paymentTopography.png);
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+.bottomIcon {
+  position: absolute;
+  left: -100px;
+  bottom: -48px;
+}
+.centerIcon {
+  left: 34%;
+  position: absolute;
+}
+.title {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+  width: 360px;
+  color: #ffffff;
+}
+.downloadBtnContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 86px;
+}
+.appleDownloadBtn {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 12px;
+  border: none;
+  border-radius: 5.4px;
+  background: #151515;
+}
+.andriodDownloadBtn {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 12px;
+  border: none;
+  border-radius: 5.4px;
+  background: #fff;
+}
+.upText,
+.upTextDark {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+}
+.downText,
+.downTextDark {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5252px;
+  line-height: 18px;
+}
+.downText,
+.upText {
+  color: #ffffff;
+}
+.downTextDark,
+.upTextDark {
+  color: #000;
+}
+.comingSoon {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.right {
+  align-items: flex-end;
+  width: 55%;
+  z-index: 10;
+  margin-left: auto;
+}
+.paymentImage {
+  width: 100%;
+}

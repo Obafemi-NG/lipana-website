@@ -4,11 +4,21 @@ import styles from "./Hero.module.css";
 import arrowRight from "../../assets/arrow-right.svg";
 import invoices from "../../assets/invoices.png";
 import dashboard from "../../assets/dashboard.png";
+import topology from "../../assets/Topology-2.png";
+import easyVector from "../../assets/easy-vector.svg";
 
 const Hero = () => {
   return (
     <div className={styles.componentContainer}>
       <div className={styles.content}>
+        <div className={styles.topologyContainer}>
+          <img src={topology} alt="topology" className={styles.topology} />
+          <img
+            src={easyVector}
+            alt="easy-vector"
+            className={styles.easyVector}
+          />
+        </div>
         <p className={styles.title}>
           {" "}
           Easy internet payments built for Developers by{" "}

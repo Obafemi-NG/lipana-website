@@ -1,0 +1,79 @@
+.componentContainer {
+  background-color: #fff;
+  padding: 96px 100px 64px 100px;
+}
+
+.content {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.servicesText {
+  margin: 0 26px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: auto;
+  color: #0a0a0a;
+}
+
+.teamContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.memberContainer {
+  width: 320px;
+  border: 1px solid #8298ab;
+}
+.aboutContainer {
+  padding: 20px;
+}
+.imageContainer {
+  width: 320px;
+}
+.image {
+  width: 100%;
+}
+.position {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #0567fb;
+}
+.name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  color: #08162a;
+}
+.jobDescription {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #8e8e8e;
+}
+
+.socialsContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

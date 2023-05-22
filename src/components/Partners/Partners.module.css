@@ -1,6 +1,11 @@
 .componentContainer {
   background-color: #08162a;
   padding: 54px 100px;
+  z-index: 10;
+}
+.content {
+  max-width: 1200px;
+  margin: auto;
 }
 .title {
   font-family: "Syne";
@@ -15,9 +20,22 @@
   margin-top: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 36px;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+.iandm,
+.visa,
+.masterCard,
+.unionPay,
+.mPesa {
+  width: 84px;
+}
+
+.bitcoin {
+  width: 54px;
+}
+.ethereum {
+  height: 54px;
 }
 
 @media screen and (max-width: 480px) {
@@ -31,6 +49,7 @@
   .iconsContainer {
     gap: 16px;
     margin-top: 8px;
+    justify-content: center;
   }
   .iandm,
   .visa,

@@ -1,0 +1,59 @@
+.componentContainer {
+  padding: 42px 100px;
+}
+.content {
+  background-color: #08162a;
+  border-radius: 16px;
+  padding: 36px 48px;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.subTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 16px;
+  color: #ffffff;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.input {
+  padding: 10px 16px;
+  border-radius: 36px;
+  border: none;
+  width: 250px;
+  font-size: 14px;
+  outline: none;
+}
+.subscribeBtn {
+  padding: 10px 28px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  border-radius: 36px;
+  background-color: #0567fb;
+  line-height: 20px;
+  color: #ffffff;
+}
