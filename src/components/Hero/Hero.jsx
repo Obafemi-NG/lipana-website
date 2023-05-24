@@ -10,15 +10,9 @@ import easyVector from "../../assets/easy-vector.svg";
 const Hero = () => {
   return (
     <div className={styles.componentContainer}>
+      <img src={topology} alt="topology" className={styles.topology} />
       <div className={styles.content}>
-        <div className={styles.topologyContainer}>
-          <img src={topology} alt="topology" className={styles.topology} />
-          <img
-            src={easyVector}
-            alt="easy-vector"
-            className={styles.easyVector}
-          />
-        </div>
+        <img src={easyVector} alt="easy-vector" className={styles.easyVector} />
         <p className={styles.title}>
           {" "}
           Easy internet payments built for Developers by{" "}

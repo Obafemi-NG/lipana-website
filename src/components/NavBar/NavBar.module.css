@@ -71,7 +71,7 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
   .content {
     padding: 28px 16px 14px 16px;
   }

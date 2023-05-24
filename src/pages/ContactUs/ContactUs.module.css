@@ -1,3 +1,6 @@
+.pageContainer {
+  position: relative;
+}
 .titleContainer {
   position: relative;
   background-color: #010f24;
@@ -39,7 +42,7 @@
   background-color: #011532;
   width: 70%;
   margin: auto;
-  margin-bottom: 44px;
+  /* margin-bottom: 44px; */
   margin-top: -100px;
   padding-top: 68px;
   padding-bottom: 36px;
@@ -106,4 +109,45 @@
   line-height: 25px;
   color: #ffffff;
   margin-top: 24px;
+}
+
+.contactsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  align-items: start;
+  padding: 18px 100px;
+  margin-top: 44px;
+  margin-bottom: 100px;
+}
+.contactIcon {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #0567fb;
+}
+
+.locationContainer,
+.mailContainer,
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contactText {
+  text-align: center;
+  padding-top: 10px;
+  width: 90%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #424242;
+}
+.contactVector {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
 }

@@ -9,9 +9,11 @@
 }
 .easyVector {
   position: absolute;
-  top: -20px;
-  left: -40px;
-  width: 220px;
+  top: 80px;
+  left: 90px;
+  /* left: 200px; */
+  /* right: 0; */
+  width: 200px;
 }
 .topologyContainer {
   /* position: absolute; */
@@ -25,9 +27,10 @@
 }
 .topology {
   position: absolute;
-  top: -80px;
-  right: -100px;
-  z-index: -1;
+  top: 80px;
+  /* background-color: red; */
+  right: 0;
+  z-index: 0;
   /* background-color: rebeccapurple; */
   /* right: 0; */
   margin-left: auto;
@@ -94,12 +97,17 @@
   margin: 0 auto;
 }
 .dashboardPng {
-  /* width: 550px; */
   width: 60%;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+@media screen and (min-width: 1300px) {
+  .easyVector {
+    left: 140px;
+  }
 }
 
 @media screen and (max-width: 480px) {

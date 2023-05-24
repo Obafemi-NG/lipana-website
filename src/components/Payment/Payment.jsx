@@ -10,8 +10,8 @@ import paymentCenterIcon from "../../assets/paymentCenterIcon.svg";
 const Payment = () => {
   return (
     <div className={styles.componentContainer}>
+      <img src={paymentBottomIcon} alt="icon" className={styles.bottomIcon} />
       <div className={styles.content}>
-        <img src={paymentBottomIcon} alt="icon" className={styles.bottomIcon} />
         <img src={paymentCenterIcon} alt="icon" className={styles.centerIcon} />
         <div className={styles.left}>
           <p className={styles.title}>

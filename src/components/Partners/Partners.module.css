@@ -1,7 +1,8 @@
 .componentContainer {
   background-color: #08162a;
   padding: 54px 100px;
-  z-index: 10;
+  z-index: 4;
+  position: relative;
 }
 .content {
   max-width: 1200px;
