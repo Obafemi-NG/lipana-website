@@ -1,0 +1,98 @@
+.titleContainer {
+  position: relative;
+  background-color: #010f24;
+  height: fit-content;
+  z-index: 0;
+  height: 250px;
+}
+
+.titleContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.02;
+  background: url("../../assets/footerPattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.pageTitle {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 62px;
+  text-align: center;
+  color: #ffffff;
+}
+.titleSpan {
+  color: #ff9b00;
+}
+.pageSubTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 129.5%;
+  text-align: center;
+  margin-top: 24px;
+  color: #ffffff;
+}
+.contentContainer {
+  margin-bottom: 48px;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.percentageContainer {
+  background-color: #fff;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 44px;
+  margin-top: -50px;
+  /* padding-top: 68px;
+  padding-bottom: 36px; */
+  padding: 80px 120px;
+  filter: drop-shadow(0px 13px 55px rgba(0, 0, 0, 0.11));
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.percentage {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #08162a;
+}
+
+.perTransaction {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: auto;
+  text-align: center;
+  color: #8e8e8e;
+}
+.percentageContainer .pricing:nth-child(n):not(:last-child) {
+  border-right: #bdbdbd 1.5px solid;
+  padding-right: 25%;
+}
