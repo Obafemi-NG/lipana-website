@@ -116,7 +116,7 @@
   justify-content: space-between;
   width: 60%;
   margin: auto;
-  align-items: start;
+  align-items: flex-start;
   padding: 18px 100px;
   margin-top: 44px;
   margin-bottom: 100px;

@@ -1,13 +1,13 @@
 .componentContainer {
-  padding: 42px 100px;
+  padding: 42px 0;
+  max-width: 1200px;
+  margin: auto;
 }
 .content {
   background-color: #08162a;
   border-radius: 16px;
   padding: 36px 48px;
   display: flex;
-  max-width: 1200px;
-  margin: auto;
   justify-content: space-between;
   align-items: center;
 }

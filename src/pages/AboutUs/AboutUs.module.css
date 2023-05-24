@@ -1,0 +1,198 @@
+.pageContainer {
+  position: relative;
+}
+.titleContainer {
+  position: relative;
+  background-color: #010f24;
+  height: fit-content;
+  z-index: 0;
+  height: 150px;
+}
+
+.titleContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.02;
+  background: url("../../assets/footerPattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.pageTitle {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.topIcon {
+  position: absolute;
+  left: 0;
+  top: 150px;
+}
+.contentContainer {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 72px;
+}
+.aboutContainer {
+  background-color: #0557d1;
+  padding: 105px 98px;
+  display: flex;
+
+  position: relative;
+  margin-bottom: 110px;
+  border-radius: 18px;
+}
+.aboutTitle {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 129.5%;
+  color: #ffffff;
+}
+.aboutText {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  margin-top: 8px;
+  width: 45%;
+  color: #ffffff;
+}
+.getBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  background-color: #ffffff;
+}
+.btnText {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14.8903px;
+  line-height: 19px;
+  color: #2e45b8;
+}
+
+.aboutImage {
+  position: absolute;
+  bottom: 0;
+  right: 105px;
+  width: 320px;
+}
+
+/* Mission Section Styling */
+.missionContainer {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 86px;
+}
+.missionLeft {
+  display: flex;
+  align-items: center;
+}
+.missionImage {
+  width: 460px;
+}
+.missionIcon {
+  width: 250px;
+}
+.missionTitle {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  margin-bottom: 24px;
+  color: #0567fb;
+}
+.our {
+  color: #0a0a0a;
+}
+.topMission,
+.bottomMission {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 139.5%;
+  color: #666666;
+}
+.bottomMission {
+  margin-top: 8px;
+}
+
+/* Value Section Styles */
+.valuesContainer {
+  background-color: #f8f8f8;
+  padding-top: 34px;
+  position: relative;
+  padding-bottom: 68px;
+}
+.valuesContent {
+  max-width: 1200px;
+  margin: auto;
+}
+.valueTitle {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #0567fb;
+}
+.values {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-top: 62px;
+}
+.valueIcon {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(5, 103, 251, 0.05);
+}
+.valueContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  margin-top: 18px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 139.5%;
+  text-align: center;
+  color: #02193d;
+}
+.message {
+  text-align: center;
+  margin-top: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #666666;
+}
+.valueAbsoluteIcon {
+  position: absolute;
+  bottom: -120px;
+}

@@ -9,7 +9,6 @@ import contactPhone from "../../assets/call-contact.svg";
 const ContactUs = () => {
   return (
     <div className={styles.pageContainer}>
-      {/* <div className={styles.pageContent}> */}
       <div className={styles.titleContainer}>
         <p className={styles.pageTitle}> Contact Us </p>
       </div>
@@ -71,7 +70,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
 
       <img
         src={contactVector}
