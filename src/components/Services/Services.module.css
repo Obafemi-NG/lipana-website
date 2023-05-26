@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  z-index: 4;
+  position: relative;
 }
 .titleContainer {
   display: flex;

@@ -12,7 +12,6 @@ const Payment = () => {
     <div className={styles.componentContainer}>
       <img src={paymentBottomIcon} alt="icon" className={styles.bottomIcon} />
       <div className={styles.content}>
-        <img src={paymentCenterIcon} alt="icon" className={styles.centerIcon} />
         <div className={styles.left}>
           <p className={styles.title}>
             Simplify payments in your business. Use Lipana.
@@ -36,6 +35,11 @@ const Payment = () => {
           <p className={styles.comingSoon}> Coming Soon... </p>
         </div>
         <div className={styles.right}>
+          <img
+            src={paymentCenterIcon}
+            alt="icon"
+            className={styles.centerIcon}
+          />
           <img
             src={paymentImage}
             alt="payment"

@@ -10,6 +10,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.spiralIcon {
+  position: absolute;
+  width: 250px;
+  left: 0;
+  height: 100%;
 }
 .left {
   display: flex;

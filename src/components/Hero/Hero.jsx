@@ -6,11 +6,19 @@ import invoices from "../../assets/invoices.png";
 import dashboard from "../../assets/dashboard.png";
 import topology from "../../assets/Topology-2.png";
 import easyVector from "../../assets/easy-vector.svg";
+import fingerPrint from "../../assets/fingerprint.png";
 
 const Hero = () => {
   return (
     <div className={styles.componentContainer}>
-      <img src={topology} alt="topology" className={styles.topology} />
+      <div className={styles.topologyContainer}>
+        <img src={topology} alt="topology" className={styles.topology} />
+      </div>
+      <img
+        src={fingerPrint}
+        alt="fingerPrint_image"
+        className={styles.fingerPrintImage}
+      />
       <div className={styles.content}>
         <img src={easyVector} alt="easy-vector" className={styles.easyVector} />
         <p className={styles.title}>

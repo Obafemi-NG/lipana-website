@@ -17,24 +17,32 @@
 }
 .topologyContainer {
   /* position: absolute; */
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: 150px;
+  right: 0;
   /* background-color: red; */
   /* height: 80%;
   width: 30%; */
   z-index: 2;
+  height: 120%;
   /* right: 0; */
 }
 .topology {
-  position: absolute;
-  top: 80px;
-  /* background-color: red; */
+  object-fit: cover;
+  height: 100%;
+  /* position: absolute; */
+  /* top: 80px;
   right: 0;
   z-index: 0;
-  /* background-color: rebeccapurple; */
-  /* right: 0; */
   margin-left: auto;
-  width: 35%;
+  object-fit: contain;
+  width: 35%; */
+}
+.fingerPrintImage {
+  position: absolute;
+  left: 0;
+  width: 60%;
+  top: 150px;
 }
 .title {
   font-family: "Syne";
@@ -85,7 +93,7 @@
 .heroPngContainer {
   position: relative;
   margin: 0 auto;
-  margin-top: 210px;
+  margin-top: 270px;
 }
 .invoiceContainer {
   display: flex;
@@ -95,18 +103,25 @@
   /* width: 1000px; */
   width: 85%;
   margin: 0 auto;
+  z-index: 4;
+  position: relative;
 }
 .dashboardPng {
   width: 60%;
   position: absolute;
   bottom: 0;
   left: 50%;
+  z-index: 5;
   transform: translate(-50%, 0);
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
   .easyVector {
     left: 140px;
+  }
+  .topologyContainer {
+    height: 85%;
+    top: 100px;
   }
 }
 

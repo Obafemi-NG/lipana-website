@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1200px;
-  /* position: relative; */
   margin: auto;
 }
 .bottomIcon {
@@ -18,7 +17,7 @@
   bottom: 0;
 }
 .centerIcon {
-  left: 34%;
+  right: 70%;
   position: absolute;
 }
 .title {
@@ -90,12 +89,10 @@
   width: 55%;
   height: 100%;
   z-index: 10;
-  /* margin-left: auto; */
   position: absolute;
+  display: flex;
+  align-items: center;
   right: 0;
-  /* top: 0; */
-  /* top: 50%; */
-  /* transform: translate(50%); */
 }
 .paymentImage {
   max-width: 100%;
@@ -103,4 +100,10 @@
 
   position: absolute;
   right: 0;
+}
+
+@media screen and (min-width: 1400px) {
+  .centerIcon {
+    right: 50%;
+  }
 }

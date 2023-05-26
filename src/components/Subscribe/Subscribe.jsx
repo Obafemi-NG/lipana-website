@@ -2,11 +2,13 @@ import React from "react";
 import styles from "./Subscribe.module.css";
 
 import notificationBell from "../../assets/notification-bing.svg";
+import spiral from "../../assets/spiral.png";
 
 const Subscribe = () => {
   return (
     <div className={styles.componentContainer}>
       <div className={styles.content}>
+        <img src={spiral} alt="spiral_icon" className={styles.spiralIcon} />
         <div className={styles.left}>
           <img src={notificationBell} alt="notification" />
           <div className={styles.messages}>
