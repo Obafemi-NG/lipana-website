@@ -4,7 +4,7 @@ import styles from "./AboutUs.module.css";
 // images
 import downloadIcon from "../../assets/get-icon.svg";
 import topIcon from "../../assets/top-icon.svg";
-import containerIcon from "../../assets/container-icon.svg";
+// import containerIcon from "../../assets/container-icon.svg";
 import aboutImage from "../../assets/about-image.png";
 import missionImage from "../../assets/mission-image.png";
 import missionIcon from "../../assets/mission-icon.svg";
