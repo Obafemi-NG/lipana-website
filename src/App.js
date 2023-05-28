@@ -4,6 +4,7 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import RootLayout from "./pages/RootLayout";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Pricing from "./pages/Pricing/Pricing";
+import NotFound from "./pages/NotFound/NotFound";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -12,6 +13,10 @@ const App = () => {
       element: <RootLayout />,
       children: [
         { index: true, element: <HomePage /> },
+        {
+          path: "*",
+          element: <NotFound />,
+        },
         {
           path: "contact-us",
           element: <ContactUs />,

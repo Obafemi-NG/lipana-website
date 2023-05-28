@@ -45,6 +45,7 @@
   margin-bottom: 48px;
   position: relative;
   max-width: 1200px;
+  padding: 0px 100px;
   margin: auto;
 }
 
@@ -54,8 +55,6 @@
   margin: auto;
   margin-bottom: 44px;
   margin-top: -50px;
-  /* padding-top: 68px;
-  padding-bottom: 36px; */
   padding: 80px 120px;
   filter: drop-shadow(0px 13px 55px rgba(0, 0, 0, 0.11));
   border-radius: 16px;
@@ -95,4 +94,166 @@
 .percentageContainer .pricing:nth-child(n):not(:last-child) {
   border-right: #bdbdbd 1.5px solid;
   padding-right: 25%;
+}
+
+.infoContainer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.infoTitle {
+  font-family: "Syne";
+  text-align: center;
+  margin-bottom: 54px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 45px;
+  color: #000000;
+}
+.mapContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 82px;
+  margin: auto;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 36px;
+}
+.iconContainer {
+  padding: 12px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+.mapTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #02193d;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.mapList {
+  list-style: disc;
+  font-family: "DM Sans";
+  /* padding-left: 8px; */
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #8e8e8e;
+}
+.createAccountBtn,
+.contactBtn {
+  background: #0567fb;
+  border-radius: 28px;
+  padding: 16px 34px;
+  border: none;
+  font-family: "Syne";
+  margin: auto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+
+  text-align: center;
+  color: #ffffff;
+}
+.createAccountBtn {
+  margin-bottom: 134px;
+}
+.contactBtn {
+  margin-top: 48px;
+}
+
+.getCustomPriceContainer {
+  background-color: #011028;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 160px;
+  border-radius: 28px;
+  padding: 35px 100px;
+}
+.customPriceTitle {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 28.4779px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.customPriceSubTitle {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16.2731px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 8px;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 48px;
+  color: #ffffff;
+}
+.imagesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+}
+.imageContainer {
+  width: 240px;
+  height: 140px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+.priceImage {
+  width: 140px;
+  position: absolute;
+  top: -30px;
+}
+
+.imageText {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.2731px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: auto;
+  /* width: 50%; */
+  color: #ffffff;
+  /* margin-top: 8px; */
+}
+
+.pricingTopIcon {
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
+
+.blendImage {
+  position: absolute;
+  left: 0;
+  top: 70%;
+}
+
+@media screen and (max-width: 1400px) {
+  .blendImage {
+    top: 90%;
+  }
 }

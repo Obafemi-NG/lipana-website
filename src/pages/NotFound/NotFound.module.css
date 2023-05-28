@@ -1,0 +1,30 @@
+.pageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+  flex-direction: column;
+}
+
+.message {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #313131;
+  margin: 48px 0;
+}
+.homeBtn {
+  background: #0567fb;
+  border-radius: 28px;
+  padding: 16px 34px;
+  border: none;
+  font-family: "Syne";
+  margin: auto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
