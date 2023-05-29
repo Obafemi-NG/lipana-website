@@ -6,7 +6,7 @@ import VideoPresentation from "../../components/VideoPresentation/VideoPresentat
 import Feature from "../../components/Feature/Feature";
 import Pricing from "../../components/Pricing/Pricing";
 import Feedbacks from "../../components/Feedbacks/Feedbacks";
-import MeetTheTeam from "../../components/MeetTheTeam/MeetTheTeam";
+// import MeetTheTeam from "../../components/MeetTheTeam/MeetTheTeam";
 import Payment from "../../components/Payment/Payment";
 import Subscribe from "../../components/Subscribe/Subscribe";
 
@@ -20,7 +20,7 @@ const HomePage = () => {
       <Feature />
       <Pricing />
       <Feedbacks />
-      <MeetTheTeam />
+      {/* <MeetTheTeam /> */}
       <Payment />
       <Subscribe />
     </Fragment>

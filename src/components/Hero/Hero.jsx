@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./Hero.module.css";
 
 import arrowRight from "../../assets/arrow-right.svg";
-import invoices from "../../assets/invoices.png";
-import dashboard from "../../assets/dashboard.png";
+import invoices from "../../assets/hero-image.png";
+// import dashboard from "../../assets/dashboard.png";
 import topology from "../../assets/Topology-2.png";
 import easyVector from "../../assets/easy-vector.svg";
 import fingerPrint from "../../assets/fingerprint.png";
@@ -45,11 +45,11 @@ const Hero = () => {
               className={styles.invoicesPng}
             />
           </div>
-          <img
+          {/* <img
             src={dashboard}
             alt="invoice_png"
             className={styles.dashboardPng}
-          />
+          /> */}
         </div>
       </div>
     </div>

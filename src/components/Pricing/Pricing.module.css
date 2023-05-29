@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   margin: auto;
   max-width: 1200px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .title {
@@ -44,4 +44,7 @@
 .content .pricing:nth-child(n):not(:last-child) {
   border-right: #bdbdbd 2px solid;
   padding-right: 56px;
+}
+.content .pricing:last-child {
+  padding-left: 56px;
 }

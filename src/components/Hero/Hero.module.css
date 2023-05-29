@@ -18,7 +18,7 @@
 .topologyContainer {
   /* position: absolute; */
   position: absolute;
-  top: 150px;
+  top: 300px;
   right: 0;
   /* background-color: red; */
   /* height: 80%;
@@ -93,7 +93,7 @@
 .heroPngContainer {
   position: relative;
   margin: 0 auto;
-  margin-top: 270px;
+  margin-top: 96px;
 }
 .invoiceContainer {
   display: flex;
@@ -121,7 +121,7 @@
   }
   .topologyContainer {
     height: 85%;
-    top: 100px;
+    top: 300px;
   }
 }
 
