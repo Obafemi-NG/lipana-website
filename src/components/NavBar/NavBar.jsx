@@ -15,10 +15,12 @@ const NavBar = () => {
       <div
         className={`${styles.content} ${displayMenu ? styles.responsive : ""} `}
       >
-        <div className={styles.logoContainer}>
-          <img src={logo} alt="lipanaLogo" />
-          <p className={styles.lipana}> Lipana </p>
-        </div>
+        <NavLink to="/">
+          <div className={styles.logoContainer}>
+            <img src={logo} alt="lipanaLogo" />
+            <p className={styles.lipana}> Lipana </p>
+          </div>
+        </NavLink>
         <div
           className={`${styles.links} ${
             displayMenu ? styles.responsiveLinks : ""

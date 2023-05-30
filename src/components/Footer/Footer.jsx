@@ -11,6 +11,7 @@ import instagram from "../../assets/Instagram.svg";
 import whatsapp from "../../assets/Whatsapp.svg";
 import youtube from "../../assets/Youtube.svg";
 import tiktok from "../../assets/Tiktok.svg";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,10 +19,12 @@ const Footer = () => {
       <div className={styles.content}>
         <div className={styles.top}>
           <div className={styles.aboutSection}>
-            <div className={styles.logoContainer}>
-              <img src={logo} alt="lipanaLogo" />
-              <p className={styles.lipana}> Lipana </p>
-            </div>
+            <NavLink to="/">
+              <div className={styles.logoContainer}>
+                <img src={logo} alt="lipanaLogo" />
+                <p className={styles.lipana}> Lipana </p>
+              </div>
+            </NavLink>
             <p className={styles.aboutText}>
               Payments for the next generation of African Entrepreneurns
             </p>

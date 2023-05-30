@@ -1,6 +1,6 @@
 .componentContainer {
   background-color: #08162a;
-  padding: 54px 100px;
+  padding: 84px 100px;
   z-index: 4;
   position: relative;
 }
@@ -18,7 +18,7 @@
 }
 
 .iconsContainer {
-  margin-top: 24px;
+  margin-top: 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;

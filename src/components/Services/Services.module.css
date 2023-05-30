@@ -1,17 +1,30 @@
 .componentContainer {
   max-width: 1200px;
-  padding: 64px 100px;
+  padding: 96px 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: auto;
   z-index: 4;
   position: relative;
 }
+/* .content {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+} */
 .titleContainer {
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: auto;
+  margin-bottom: 58px;
+}
+.servicesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 32px;
 }
 .servicesText {
   margin: 0 26px;
