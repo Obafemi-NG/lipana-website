@@ -42,7 +42,7 @@ export const serviceData = [
     description:
       "Access our fast APIs, clear documentation and fast integration designed to suit your particular business.",
     cardIcon: cardCoin,
-    dark: false,
+    dark: true,
   },
   {
     id: 6,
@@ -50,11 +50,19 @@ export const serviceData = [
     description:
       "Receive your online payments directly to your bank account or mobile money wallets within 1-2 business days without delay.",
     cardIcon: money,
-    dark: true,
+    dark: false,
   },
   {
     id: 7,
     title: "Go 100% contactless in your business",
+    description:
+      "Get a QR Code to start accepting contactless payments directly from your business premises, quickly and securely.",
+    cardIcon: cardPos,
+    dark: true,
+  },
+  {
+    id: 8,
+    title: "Easy payout to contractors",
     description:
       "Get a QR Code to start accepting contactless payments directly from your business premises, quickly and securely.",
     cardIcon: cardPos,

@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Feature.module.css";
 
 import star from "../../assets/longstar.svg";
+import Carousel from "../Carousel/Carousel";
+import { featureData } from "../../Data/featureData";
 
 const Feature = () => {
   return (
@@ -15,6 +17,8 @@ const Feature = () => {
             <span className={styles.business}> business </span>{" "}
           </p>
         </div>
+
+        <Carousel items={featureData} />
 
         <p className={styles.bottomTitle}>
           {" "}

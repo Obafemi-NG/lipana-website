@@ -1,6 +1,6 @@
 .componentContainer {
   background-color: #2746e1;
-  padding: 48px 0px 48px 100px;
+  padding: 64px 0px 64px 100px;
   position: relative;
   background-image: url(../../assets/paymentTopography.png);
 }
@@ -96,8 +96,7 @@
 }
 .paymentImage {
   max-width: 100%;
-  max-height: 100%;
-
+  max-height: 95%;
   position: absolute;
   right: 0;
 }

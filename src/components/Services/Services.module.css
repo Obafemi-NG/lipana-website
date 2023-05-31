@@ -39,6 +39,15 @@
   margin-top: 54px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .servicesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 32px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .componentContainer {
     padding: 28px 16px;
@@ -52,6 +61,12 @@
   }
   .carouselContainer {
     margin-top: 24px;
+  }
+  .servicesContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    /* row-gap: 32px; */
   }
 }
 @media screen and (max-width: 320px) {

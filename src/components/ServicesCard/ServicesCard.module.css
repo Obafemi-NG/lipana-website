@@ -3,6 +3,7 @@
   /* min-width: 270px; */
   max-width: 320px;
   min-height: 220px;
+  border-radius: 8px;
   position: relative;
 }
 .darkCardContainer {

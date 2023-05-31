@@ -71,6 +71,11 @@
   display: none;
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  /* .links {
+  } */
+}
+
 @media screen and (max-width: 1000px) {
   .content {
     padding: 28px 16px 14px 16px;
