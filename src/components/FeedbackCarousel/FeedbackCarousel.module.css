@@ -1,0 +1,54 @@
+.comment {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 48px;
+  color: #08162a;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 96px;
+}
+.paginationDot {
+  height: 2px;
+  width: 100%;
+
+  background-color: #cccccc;
+}
+.paginationDot.active {
+  background-color: #0567fb;
+  height: 4px;
+}
+
+.carouselContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #08162a;
+}
+.position {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #bdbdbd;
+}
+
+@media screen and (max-width: 480px) {
+  .comment {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}

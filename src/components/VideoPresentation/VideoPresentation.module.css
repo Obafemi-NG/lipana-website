@@ -58,3 +58,18 @@
   line-height: 25px;
   color: #0567fb;
 }
+.learnMore:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .componentContainer {
+    padding: 28px 16px 36px 16px;
+  }
+  .videoPlayer {
+    width: 90%;
+    border-radius: 16px;
+  }
+  .videoText {
+    width: 90%;
+  }
+}

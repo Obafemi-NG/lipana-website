@@ -1,6 +1,6 @@
 import image1 from "../assets/feature-image1.png";
-import image2 from "../assets/hassan.png";
-import image3 from "../assets/shadrack.png";
+import image2 from "../assets/secure.png";
+import image3 from "../assets/fulltime.png";
 
 export const featureData = [
   {
@@ -8,14 +8,14 @@ export const featureData = [
     title: "Simple, Secure, Reliable",
     content:
       "Make payments easier for your customers with online invoices they can pay with their MPESA, Card or Crypto payments.",
-    imgUrl: image1,
+    imgUrl: image2,
   },
   {
     id: 2,
     title: "Super Smooth Onboarding",
     content:
       "Make payments easier for your customers with online invoices they can pay with their MPESA, Card or Crypto payments.",
-    imgUrl: image2,
+    imgUrl: image1,
   },
   {
     id: 3,

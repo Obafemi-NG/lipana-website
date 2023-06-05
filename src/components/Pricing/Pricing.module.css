@@ -48,3 +48,56 @@
 .content .pricing:last-child {
   padding-left: 56px;
 }
+.topSection {
+  margin-bottom: 48px;
+}
+.business {
+  color: #0567fb;
+}
+.bottomTitle {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.subTitle {
+  font-family: "Syne";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #666666;
+}
+
+@media screen and (max-width: 480px) {
+  .componentContainer {
+    padding: 36px 16px;
+  }
+  .bottomTitle {
+    font-size: 25px;
+    line-height: 32px;
+    width: 80%;
+  }
+  .subTitle {
+    font-size: 16px;
+  }
+  .content .pricing:nth-child(n):not(:last-child) {
+    padding-right: 18px;
+  }
+  .content .pricing:last-child {
+    padding-left: 18px;
+  }
+  .title {
+    font-size: 14px;
+  }
+  .percentage {
+    font-size: 46px;
+  }
+  .perTransaction {
+    font-size: 14px;
+  }
+}

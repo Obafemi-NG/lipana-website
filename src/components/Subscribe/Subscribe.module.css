@@ -64,3 +64,36 @@
   line-height: 20px;
   color: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+  .componentContainer {
+    padding: 36px 16px;
+  }
+  .spiralIcon {
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px 16px;
+  }
+  .title {
+    font-size: 18px;
+    line-height: 12px;
+  }
+  .subTitle {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .left {
+    margin-bottom: 20px;
+  }
+  .right {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .input {
+    width: 90%;
+  }
+}

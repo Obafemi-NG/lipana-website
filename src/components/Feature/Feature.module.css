@@ -1,10 +1,10 @@
 .componentContainer {
   background-color: #fff;
-  margin: 48px 100px;
+  position: relative;
 }
 .content {
   max-width: 1200px;
-  padding: 48px 0;
+  padding: 48px 100px;
   margin: auto;
 }
 
@@ -21,26 +21,24 @@
   line-height: 50px;
   color: #0a0a0a;
 }
+.featureImage {
+  position: absolute;
+  left: 0;
+  width: 150px;
+}
 .business {
   color: #0567fb;
 }
-
-.bottomTitle {
-  font-family: "Syne";
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
-  width: 70%;
-  margin: auto;
-  text-align: center;
-  margin-top: 96px;
-}
-
-.subTitle {
-  font-family: "Syne";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  color: #666666;
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 36px 16px;
+  }
+  .title {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .featureImage {
+    width: 50px;
+    top: 50px;
+  }
 }

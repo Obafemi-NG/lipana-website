@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Feedbacks.module.css";
 import star from "../../assets/longstar.svg";
+import FeedbackCarousel from "../FeedbackCarousel/FeedbackCarousel";
+import { feedbackData } from "../../Data/FeedbackData";
 
 const Feedbacks = () => {
   return (
@@ -11,6 +13,7 @@ const Feedbacks = () => {
           <p className={styles.servicesText}> What Customer Say </p>
           <img src={star} alt="star" className={styles.star} />
         </div>
+        <FeedbackCarousel items={feedbackData} />
       </div>
     </div>
   );

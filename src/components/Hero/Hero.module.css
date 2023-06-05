@@ -7,36 +7,23 @@
   position: relative;
   margin: auto;
 }
+
 .easyVector {
   position: absolute;
   top: 80px;
   left: 120px;
-  /* left: 200px; */
-  /* right: 0; */
   width: 200px;
 }
 .topologyContainer {
-  /* position: absolute; */
   position: absolute;
   top: 300px;
   right: 0;
-  /* background-color: red; */
-  /* height: 80%;
-  width: 30%; */
   z-index: 2;
   height: 120%;
-  /* right: 0; */
 }
 .topology {
   object-fit: cover;
   height: 100%;
-  /* position: absolute; */
-  /* top: 80px;
-  right: 0;
-  z-index: 0;
-  margin-left: auto;
-  object-fit: contain;
-  width: 35%; */
 }
 .fingerPrintImage {
   position: absolute;
@@ -70,25 +57,38 @@
   width: 50%;
   color: #ffffff;
 }
-.btn {
+.btnContainer {
   display: flex;
   align-items: center;
+  gap: 36px;
+  justify-content: center;
+}
+.btn {
   background-color: #0567fb;
+  border: none;
+}
+.outlineBtn {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.btn,
+.outlineBtn {
+  display: flex;
+  align-items: center;
   border-radius: 46px;
   padding: 16px 60px;
-  margin: auto;
   margin-top: 48px;
+  gap: 14px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
   text-align: center;
-  border: none;
   color: #ffffff;
 }
-.arrowRight {
-  margin-left: 14px;
+.play {
+  width: 18px;
 }
 .heroPngContainer {
   position: relative;
@@ -129,7 +129,20 @@
     width: 90%;
     margin-top: 16px;
   }
-  .btn {
+  .easyVector {
+    width: 100px;
+    top: 24px;
+    left: 24px;
+  }
+  .btnContainer {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .outlineBtn {
+    margin-top: 0;
+  }
+  .btn,
+  .outlineBtn {
     padding: 10px 36px;
   }
   .heroPngContainer {

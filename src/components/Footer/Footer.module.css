@@ -172,3 +172,12 @@
   line-height: 25px;
   color: #8298ab;
 }
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 36px 16px 24px 16px;
+  }
+  .top {
+    flex-wrap: wrap;
+  }
+}

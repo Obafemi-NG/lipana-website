@@ -106,3 +106,37 @@
     right: 50%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .componentContainer {
+    padding: 36px 0px 36px 16px;
+  }
+  .title {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  .bottomIcon,
+  .centerIcon {
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .right {
+    position: unset;
+    width: 100%;
+  }
+  .downloadBtnContainer {
+    margin-top: 56px;
+  }
+  .comingSoon {
+    margin-bottom: 42px;
+  }
+  .paymentImage {
+    max-width: unset;
+    max-height: unset;
+    height: 100%;
+    width: 100%;
+    position: unset;
+  }
+}

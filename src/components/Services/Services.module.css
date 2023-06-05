@@ -9,11 +9,6 @@
   z-index: 4;
   position: relative;
 }
-/* .content {
-  display: flex;
-  justify-content: center;
-  background-color: red;
-} */
 .titleContainer {
   display: flex;
   align-items: center;

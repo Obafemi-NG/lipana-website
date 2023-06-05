@@ -6,6 +6,7 @@ import invoices from "../../assets/hero-image.png";
 import topology from "../../assets/Topology-2.png";
 import easyVector from "../../assets/easy-vector.svg";
 import fingerPrint from "../../assets/fingerprint.png";
+import play from "../../assets/hero-play.svg";
 
 const Hero = () => {
   return (
@@ -28,14 +29,20 @@ const Hero = () => {
         <p className={styles.subTitle}>
           Send and receive money to anyone, anywhere in the world.
         </p>
-        <button className={styles.btn}>
-          Get Started{" "}
-          <img
-            src={arrowRight}
-            alt="arrow-right"
-            className={styles.arrowRight}
-          />
-        </button>
+        <div className={styles.btnContainer}>
+          <button className={styles.btn}>
+            Get Started{" "}
+            <img
+              src={arrowRight}
+              alt="arrow-right"
+              className={styles.arrowRight}
+            />
+          </button>
+          <button className={styles.outlineBtn}>
+            How it works{" "}
+            <img src={play} alt="arrow-right" className={styles.play} />
+          </button>
+        </div>
         <div className={styles.heroPngContainer}>
           <div className={styles.invoiceContainer}>
             <img

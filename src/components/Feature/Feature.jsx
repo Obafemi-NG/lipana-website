@@ -4,10 +4,12 @@ import styles from "./Feature.module.css";
 import star from "../../assets/longstar.svg";
 import Carousel from "../Carousel/Carousel";
 import { featureData } from "../../Data/featureData";
+import featureImage from "../../assets/feature-image.png";
 
 const Feature = () => {
   return (
     <div className={styles.componentContainer}>
+      <img src={featureImage} alt="feature" className={styles.featureImage} />
       <div className={styles.content}>
         <div className={styles.titleContainer}>
           <img src={star} alt="star" className={styles.star} />
@@ -19,16 +21,6 @@ const Feature = () => {
         </div>
 
         <Carousel items={featureData} />
-
-        <p className={styles.bottomTitle}>
-          {" "}
-          <span className={styles.business}> Simple Transparent </span> Pricing.
-          No Monthly Fees.{" "}
-        </p>
-        <p className={styles.subTitle}>
-          {" "}
-          We only make money, when you make more.{" "}
-        </p>
       </div>
     </div>
   );

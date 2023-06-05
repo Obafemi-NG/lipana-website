@@ -72,8 +72,6 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
-  /* .links {
-  } */
 }
 
 @media screen and (max-width: 1000px) {
@@ -87,6 +85,9 @@
   .auth {
     display: none;
   }
+  .isActive {
+    border-bottom: 0;
+  }
   .menuIcon {
     float: right;
     display: block;
@@ -98,10 +99,13 @@
   .responsiveAuth {
     display: flex;
     justify-content: center;
+    background-color: #010f24;
+    z-index: 10;
     flex-direction: column;
   }
   .responsiveAuth {
-    margin-top: 24px;
+    padding-top: 24px;
+    padding-bottom: 18px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -111,15 +115,14 @@
     margin: 0;
   }
   .responsiveNavLink {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
   }
   .responsive .responsiveLinks {
     position: absolute;
     flex-direction: column;
-    top: 76px;
+    top: 56px;
     right: 0;
-    background-color: #010f24;
-    padding: 24px 0;
+    padding: 18px 0;
     display: flex;
     justify-content: center;
   }
