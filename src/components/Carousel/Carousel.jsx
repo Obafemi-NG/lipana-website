@@ -41,13 +41,11 @@ const Carousel = ({ items }) => {
               }`}
               key={index}
             >
-              {/* <div className={styles.itemDetails}> */}
               <h3 className={styles.featureTitle}> {item.title} </h3>
               <p className={styles.featureContent}> {item.content} </p>
               <button className={styles.learnMoreBtn}>
                 Learn More <img src={arrowRight} alt="arrow" />{" "}
               </button>
-              {/* </div> */}
             </div>
           ))}
         </div>
