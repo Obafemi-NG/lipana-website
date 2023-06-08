@@ -92,8 +92,12 @@ const NavBar = () => {
               displayMenu ? styles.responsiveAuth : ""
             } `}
           >
-            <p className={styles.signIn}> Sign In </p>
-            <button className={styles.createAccount}> Create Account </button>
+            <NavLink to="/signin">
+              <p className={styles.signIn}> Sign In </p>
+            </NavLink>
+            <NavLink to="/signup">
+              <button className={styles.createAccount}> Create Account </button>
+            </NavLink>
           </div>
         </div>
         <img

@@ -5,6 +5,8 @@ import RootLayout from "./pages/RootLayout";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Pricing from "./pages/Pricing/Pricing";
 import NotFound from "./pages/NotFound/NotFound";
+import SignUp from "./pages/SignUp/SignUp";
+import Login from "./pages/Login/Login";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -30,6 +32,14 @@ const App = () => {
           element: <Pricing />,
         },
       ],
+    },
+    {
+      path: "/signup",
+      element: <SignUp />,
+    },
+    {
+      path: "/login",
+      element: <Login />,
     },
   ]);
   return <RouterProvider router={router} />;

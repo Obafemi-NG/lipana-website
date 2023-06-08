@@ -1,0 +1,210 @@
+.pageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 35vw;
+  margin-left: 84px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logoContainer {
+  display: flex;
+  margin-bottom: 48px;
+  align-items: center;
+}
+.logoText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.7778px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  margin-left: 8px;
+}
+.title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  color: #000000;
+}
+.subTitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #7d7878;
+}
+.inputContainer {
+  margin-top: 36px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 18px;
+}
+.inputLabelContainer {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.authInput {
+  padding: 14px;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.passwordInputContainer {
+  position: relative;
+}
+.visibilityIcon {
+  position: absolute;
+  width: 28px;
+  bottom: 14%;
+  right: 5%;
+}
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.checkBox {
+  appearance: none;
+  background-color: transparent;
+  border: 1.5px solid #0557d1;
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  position: relative;
+}
+.checkBox:hover {
+  cursor: pointer;
+}
+.checkBox::after {
+  content: "\2713";
+  font-size: 16px;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  color: #0557d1;
+}
+.checkBox:checked {
+  background-color: #0557d1;
+}
+.checkBox:checked::after {
+  content: "\2713";
+  font-size: 16px;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  color: white;
+}
+.signUpBtn {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27.5068px;
+  line-height: 36px;
+  padding: 18px;
+  background-color: #0557d1;
+  outline: none;
+  border: none;
+  border-radius: 43px;
+  color: #ffffff;
+}
+.signUpBtn:hover {
+  cursor: pointer;
+}
+.leftBottom {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+  margin-top: 36px;
+  position: relative;
+}
+.or {
+  font-family: "DM Sans";
+  top: -12px;
+  padding: 0px 18px;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-top: 16px;
+}
+.iconContainer {
+  padding: 8px;
+  border: 2px solid #ececec8a;
+  border-radius: 50%;
+}
+.haveAccount {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.7561px;
+  line-height: 148.7%;
+  color: #534c4c;
+  margin-top: 16px;
+}
+.signInBtn {
+  color: #0557d1;
+}
+.signInBtn:hover {
+  cursor: pointer;
+}
+
+/* Styling for the right side */
+.right {
+  position: relative;
+  background-color: #0567fb;
+  height: fit-content;
+  z-index: 0;
+  max-width: 45vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.02;
+  background: url("../../assets/footerPattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.rightText {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 125px;
+  color: #ffffff;
+  padding-left: 10%;
+}
